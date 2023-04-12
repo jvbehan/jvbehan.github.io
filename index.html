@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>James Behan | dentsu Ireland</section>
+
+				<section data-background-iframe="https://about.fb.com/news/2020/05/introducing-facebook-shops/" data-background-interactive>
+					<div style="position: fixed; width: 30%; right: 0; border-radius: 2%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 2%; font-size: 100%; text-align: left;">
+					  Background
+					  <br><br>
+					  In May 2020, Facebook announces Shops
+				</section>
+
+				<section data-background-image="https://about.fb.com/wp-content/uploads/2020/05/IGShopCheckout_Colored.jpeg">
+				</section>	
+
+				<section data-background-image="https://about.fb.com/wp-content/uploads/2020/05/IGShopCheckout_Colored.jpeg">
+					<div style="position: fixed; width: 60%; left: 0; border-radius: 2%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 2%; font-size: 100%; text-align: left;">
+					Building onsite checkout
+					<br><br>
+					<ul>
+						<li>Product design (Meta's role, funds flow)</li>
+						<li>Payment processor (selection & contracts)</li>
+						<li>Engineering requirements</li>
+						<li>Tax (countries), Billing (pricing, currencies)</li>
+						<li>Accouting (memos, recipes), Finance</li>
+					</ul>
+				</section>
+
+				<section>
+					Personal Successes
+					<br><br>
+					<ul>
+						<li>Wrote finance's engineering requirements</li>
+						<li>Ran team setting up accouting and finance processes</li>
+						<li>Influenced as payments expert incl. Stripe negotiations</li>		
+						<li>Delivered management updates</li>
+					</ul>
+					<br><br>
+					Overall - UK pilots on Instagram and Marketplace
+
+
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+
+//Reveal.initialize({ slideNumber: 'c/t' });
+
+			Reveal.initialize({
+				slideNumber: 'c/t',
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
